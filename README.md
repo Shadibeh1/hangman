@@ -13,8 +13,7 @@ If the letter is not in the word, you lose a life.
 Continue guessing until you either guess the word or run out of lives.
 
 ## Built With
-Python - Programming language used
-Random module - For selecting random words
+Python as programming language used & Random module for selecting random words
 
 ## Authors
 Shadi B
