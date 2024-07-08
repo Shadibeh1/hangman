@@ -14,6 +14,7 @@ def check_guess(guess):
 
     Returns:
         None
+
     """
 
     guess = guess.lower()
