@@ -1,10 +1,37 @@
-# hangman
+Hangman Game
+Hangman is a classic word guessing game where one player thinks of a word and the other player tries to guess it within a certain number of attempts. This project implements the Hangman game in Python, where the computer selects a word randomly from a predefined list and the player tries to guess it letter by letter.
 
-import random
+Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-word_list = ['apple', 'banana', 'strawberry', 'raspberry', 'orange']
-print(word_list)
+Prerequisites
+Python 3.x installed on your machine. You can download it from python.org.
+Installing
+Clone the repository to your local machine using Git:
 
-word = random.choice(word_list)
-print(word)
+bash
+Copy code
+git clone https://github.com/your-username/hangman.git
+Navigate into the project directory:
+
+bash
+Copy code
+cd hangman
+Running the Game
+To run the Hangman game, execute the following command:
+
+Copy code
+python hangman.py
+Gameplay
+The computer selects a random word from a list of words.
+You have a certain number of lives (incorrect guesses) to guess the word.
+Guess one letter at a time.
+If the letter is in the word, it will be revealed.
+If the letter is not in the word, you lose a life.
+Continue guessing until you either guess the word or run out of lives.
+Built With
+Python - Programming language used
+Random module - For selecting random words
+Authors
+Your Name - Initial work
 
